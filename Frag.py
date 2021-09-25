@@ -11,7 +11,7 @@ EXCEPT = []
 #
 ANONY = [] # OFF
 
-bot = telebot.TeleBot("(1904703868:AAFB-lvvEqlfWwKG80rgFTORWXYIJGoBg98)")
+bot = telebot.TeleBot("1904703868:AAFB-lvvEqlfWwKG80rgFTORWXYIJGoBg98")
 
 @bot.message_handler(commands=['cnpj'])
 def zn(nome):
